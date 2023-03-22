@@ -1,0 +1,444 @@
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+body {
+  margin-top: 100px;
+  background-color: #222;
+}
+
+@media (min-width: 768px) {
+  body {
+    margin-top: 50px;
+  }
+}
+
+#wrapper {
+  padding-left: 0;
+  
+}
+
+#page-wrapper {
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
+}
+
+.huge {
+  font-size: 50px;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  #wrapper {
+    padding-left: 0px;
+    transition: left 0.4s ease;
+  }
+
+  #page-wrapper {
+    padding: 10px;
+  }
+}
+
+/* Top Navigation */
+
+.top-nav {
+  padding: 0 15px;
+}
+
+.top-nav > li {
+  display: inline-block;
+  float: left;
+}
+
+.top-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  color: #999;
+}
+
+.top-nav > li > a:hover,
+.top-nav > li > a:focus,
+.top-nav > .open > a,
+.top-nav > .open > a:hover,
+.top-nav > .open > a:focus {
+  color: #fff;
+  background-color: #000;
+}
+
+.top-nav > .open > .dropdown-menu {
+  float: left;
+  position: absolute;
+  margin-top: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+.top-nav > .open > .dropdown-menu > li > a {
+  white-space: normal;
+}
+
+ul.message-dropdown {
+  padding: 0;
+  max-height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+li.message-preview {
+  width: 275px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+li.message-preview > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+li.message-footer {
+  margin: 5px 0;
+}
+
+ul.alert-dropdown {
+  width: 200px;
+}
+
+/* Side Navigation */
+
+@media (min-width: 768px) {
+  .side-nav {
+    position: fixed;
+    top: 51px;
+    left: 225px;
+    width: 225px;
+    margin-left: -225px;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    background-color: #222;
+  }
+
+  .side-nav > li > a {
+    width: 225px;
+  }
+
+  .side-nav li a:hover,
+  .side-nav li a:focus {
+    outline: none;
+    background-color: #000 !important;
+  }
+}
+
+.side-nav > li > ul {
+  padding: 0;
+}
+
+.side-nav > li > ul > li > a {
+  display: block;
+  padding: 10px 15px 10px 38px;
+  text-decoration: none;
+  color: #999;
+}
+
+.side-nav > li > ul > li > a:hover {
+  color: #fff;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+  display: block;
+  height: 400px;
+}
+
+.flot-chart-content {
+  width: 100%;
+  height: 100%;
+}
+
+/* Custom Colored Panels */
+
+.huge {
+  font-size: 40px;
+}
+
+.panel-green {
+  border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+  border-color: #5cb85c;
+  color: #fff;
+  background-color: #5cb85c;
+}
+
+.panel-green a {
+  color: #5cb85c;
+}
+
+.panel-green a:hover {
+  color: #3d8b3d;
+}
+
+.panel-red {
+  border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+  border-color: #d9534f;
+  color: #fff;
+  background-color: #d9534f;
+}
+
+.panel-red a {
+  color: #d9534f;
+}
+
+.panel-red a:hover {
+  color: #b52b27;
+}
+
+.panel-yellow {
+  border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+  border-color: #f0ad4e;
+  color: #fff;
+  background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+  color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+  color: #df8a13;
+}
+
+.nav li a {
+  font-family:Khmer OS Battambang ;
+  font-size: 18px;
+}
+.swal2-html-container{
+  font-family:Khmer OS Battambang ;
+
+}
+.swal2-title{
+  font-family:Khmer OS Battambang ;
+
+}
+.top_oder{
+  padding: 10px;
+}
+.form_row {
+  width: calc(60% - 15px);
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.total{
+  background: #fd8682;
+  text-align: center;
+  height: 60px;
+  line-height: 64px;
+}
+.total p {
+  font-weight:500;
+  font-size: 28px;
+}
+.form_row .col{
+  font-size: 16px;
+  font-family:Khmer OS Battambang;
+}
+.form-control{
+  height: 46px;
+  font-size: 20px;
+  
+}
+/* .form_row .form-control{
+  background: #e8f1f9;
+} */
+.btn-primary{
+  font-family:Khmer OS Battambang ;
+  
+}
+
+*{
+  font-family:Khmer OS Battambang ;
+  font-size: 18px;
+}
+.table th{
+  font-size: 16px;
+}
+.container{
+  width:1100px;
+}
+.side-nav li .feat-show {
+  display: none;
+}
+.side-nav li .feat-show.show {
+  display: block;
+}
+
+.thumbnail {
+  background: #5cb85c;
+}
+.containerr{
+  text-align: center;
+
+}
+.col-sm-6 a{
+  text-decoration: none;
+}
+.thumbnail:hover{
+  background: #55a055;
+}
+.line_items .thname{
+  width: 150px;
+}
+.thumbnail .caption {
+  color: #000;
+}
+.thead tr th {
+  text-align: center;
+}
+tbody tr th ,tbody tr td {
+  text-align: center;
+
+}
+
+.right{
+  float: right;
+}
+.invo{
+  font-family: Khmer OS Muol Light;
+}
+.line_invo{
+  text-align: center;
+
+}
+.totalinvo, .totalinvoo{
+  text-align: center;
+  
+}
+.totalinvo td{
+  font-family: Khmer OS Muol Light;
+  color: #e63933;
+  font-weight: 600;
+}
+
+.col-sm-6 .btn-primary{
+  width: 100%;
+  font-size: 16px;
+  background-color: #333ab7;
+}
+.toder {
+  width: 100%;
+}
+.table>thead>tr>th  {
+  text-align: center;
+}
+td p{
+  text-align: center;
+}
+.tablee{
+  width: 100%;
+  max-width: 100%;
+}
+#print-btn{
+  font-size: 23px;
+
+  height: 50px;
+}
+.tablew{
+  max-width: 30%;
+  margin-top: 195px;
+}
+
+.tablew>thead>tr>th,.tablew>tbody>tr>th  {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+.tablew th {
+    font-size: 16px;
+}
+.col_md_6 {
+  width: 50%;
+  float: left;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.col_md_4 {
+  width: 33%;
+  float: left;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.col_md_8{
+  padding-top: 5px;
+  float: left;
+}
+
+.btnn{
+  position: absolute;
+  top: 4px;
+  left: 180px;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  background: #1b1b1b;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: left 0.4s ease;
+}
+.btnn span{
+  color: white;
+  font-size: 28px;
+  line-height: 45px;
+}
+.btnn.click span:before{
+  content: '\f00d';
+}
+.side-nav{
+  position: fixed;
+  left: 0px;
+  transition: left 0.4s ease;
+}
+.side-nav.show{
+  left: 225px;
+}
+#wrapper.show {
+  padding-left: 225px;
+  transition: right 0.4s ease;
+
+}
+.boderr{
+  color: #1b00ff;
+  font-weight:bolder;
+}
+.boderRR{
+  color: #ff6600;
+  font-weight:bolder;
+  
+}
+.bTH{
+  padding: 4px 5px;
+}
+.nav.navbar-nav li span.rotate{
+  transform: translateY(-10%) rotate(-180deg);
+}
+.top{
+  padding-top: 5px;
+}
+.font td{
+  font-size: 14px;
+}

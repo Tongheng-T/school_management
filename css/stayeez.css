@@ -1,0 +1,15 @@
+@import 'style_loimn.css';
+
+body{
+  background: linear-gradient(270deg, #71b7e6, #1350f8)
+}
+
+.padding {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.row .col-lg-12{
+  padding: 20px;
+}
